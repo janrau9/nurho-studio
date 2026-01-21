@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": " -path:Projects/lionrapid/tm-platform/domains/continuous/flows -path:Projects/lionrapid/tm-platform/templates -path:lionrapid/tm-platform/domains/continuous/continuous  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Projects/lionrapid/tm-platform/domains/continuous  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Projects/lionrapid/tm-platform/domains/integrations  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Projects/lionrapid/tm-integration  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.91197916666667,
+  "lineSizeMultiplier": 1.8609375,
+  "collapse-forces": false,
+  "centerStrength": 0.395833333333333,
+  "repelStrength": 16.3541666666667,
+  "linkStrength": 1,
+  "linkDistance": 488,
+  "scale": 0.29629629629629567,
+  "close": false
+}
