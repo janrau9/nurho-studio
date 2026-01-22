@@ -1,0 +1,10 @@
+{
+  "buttonStyles": {
+    "default": {
+      "backgroundColor": "#7c3aed",
+      "textColor": "#ffffff",
+      "borderColor": "#7c3aed",
+      "hoverBackgroundColor": "#6d28d9"
+    }
+  }
+}

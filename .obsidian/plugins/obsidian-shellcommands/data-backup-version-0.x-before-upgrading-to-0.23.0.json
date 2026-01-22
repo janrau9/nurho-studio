@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "working_directory": "{{vault_path}}",
+    "default_shell": "bash",
+    "preview_variables_in_command_palette": true,
+    "output_channel_clipboard_also_outputs_to_notification": true
+  },
+  "shell_commands": {
+    "generate-images": {
+      "id": "generate-images",
+      "shell_command": "python scripts/generate_images.py \"{{folder_path:relative}}\"",
+      "alias": "Generate Images",
+      "confirm_execution": true,
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first"
+    },
+    "generate-images-new-seed": {
+      "id": "generate-images-new-seed",
+      "shell_command": "python scripts/generate_images.py \"{{folder_path:relative}}\" --seed $RANDOM",
+      "alias": "Generate Images (New Seed)",
+      "confirm_execution": true,
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first"
+    },
+    "open-claude": {
+      "id": "open-claude",
+      "shell_command": "cd \"{{folder_path:absolute}}\" && claude",
+      "alias": "Open Claude Code Here",
+      "confirm_execution": false,
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      }
+    }
+  },
+  "command_palette": true
+}

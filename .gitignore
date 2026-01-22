@@ -1,0 +1,37 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large media files (link to these, don't commit)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.psd
+*.ai
+
+# Temp files
+*.tmp
+*~
+
+# Environment variables (contains API keys)
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated images (large files, keep references only)
+**/images/*.png
+**/images/*.jpg
+**/video-clips/*.mp4

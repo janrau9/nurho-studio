@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "ProjectTemplates",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "ProjectTemplates/New-AI-Video.md",
+    "ProjectTemplates/New-Clip-Video.md"
   ],
   "startup_templates": [
     ""

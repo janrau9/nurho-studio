@@ -2,5 +2,7 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "calendar",
-  "text-snippets-obsidian"
+  "text-snippets-obsidian",
+  "obsidian-kanban",
+  "buttons"
 ]
